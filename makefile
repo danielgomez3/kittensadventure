@@ -1,4 +1,4 @@
-PROG = ppp03
+PROG = kitten
 CC = gcc
 
 include common.mk
