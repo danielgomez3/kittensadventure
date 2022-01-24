@@ -1,4 +1,4 @@
-#include "textures.h"
+#include "./headers/textures.h"
 
 static SDL_Texture *getTexture(char *name)
 {

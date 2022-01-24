@@ -1,4 +1,4 @@
-#include "io.h"
+#include "./headers/io.h"
 
 char *readFile(const char *filename)
 {

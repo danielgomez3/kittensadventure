@@ -1,4 +1,4 @@
-#include "player.h"
+#include "./headers/player.h"
 
 static SDL_Texture *pete[2];
 

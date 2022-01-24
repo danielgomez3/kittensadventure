@@ -1,4 +1,4 @@
-#include "init.h"
+#include "./headers/init.h"
 
 void initSDL(void)
 {

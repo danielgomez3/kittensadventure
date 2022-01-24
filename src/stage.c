@@ -1,4 +1,4 @@
-#include "stage.h"
+#include "./headers/stage.h"
 
 static void logic(void);
 static void draw(void);

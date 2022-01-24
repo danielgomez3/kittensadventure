@@ -1,4 +1,4 @@
-#include "camera.h"
+#include "./headers/camera.h"
 
 void doCamera(void)
 {

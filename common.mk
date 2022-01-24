@@ -1,8 +1,9 @@
 OUT = bin
 
 SEARCHPATH += src
+SEARCHPATHHEADERS += src/headers
 vpath %.c $(SEARCHPATH)
-vpath %.h $(SEARCHPATH)
+vpath %.h $(SEARCHPATHHEADERS)
 
 DEPS += defs.h structs.h
 

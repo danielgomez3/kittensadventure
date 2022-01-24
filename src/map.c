@@ -1,4 +1,4 @@
-#include "map.h"
+#include "./headers/map.h"
 
 static void loadTiles(void);
 static void loadMap(const char *filename);
