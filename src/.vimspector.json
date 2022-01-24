@@ -1,0 +1,14 @@
+{
+  "configurations": {
+    "Launch": {
+      "adapter": "vscode-cpptools",
+      "configuration": {
+        "program": "/home/daniel/Downloads/SDL2_Tutorials/ppp/ppp03/src/main.c",
+        "stopAtEntry": true,
+	"externalConsole": true,
+	"MIMode": "gdb"
+        }
+      }
+    }
+  }
+}

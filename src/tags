@@ -1,0 +1,100 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_OUTPUT_EXCMD	mixed	/number, pattern, mixed, or combineV2/
+!_TAG_OUTPUT_FILESEP	slash	/slash or backslash/
+!_TAG_OUTPUT_MODE	u-ctags	/u-ctags or e-ctags/
+!_TAG_PATTERN_LENGTH_LIMIT	96	/0 for no limit/
+!_TAG_PROC_CWD	/home/daniel/Downloads/SDL2_Tutorials/ppp/ppp03/src/	//
+!_TAG_PROGRAM_AUTHOR	Universal Ctags Team	//
+!_TAG_PROGRAM_NAME	Universal Ctags	/Derived from Exuberant Ctags/
+!_TAG_PROGRAM_URL	https://ctags.io/	/official site/
+!_TAG_PROGRAM_VERSION	5.9.0	/p5.9.20210905.0/
+App	structs.h	/^} App;$/;"	t	typeref:struct:__anonb37368f30208
+Delegate	structs.h	/^} Delegate;$/;"	t	typeref:struct:__anonb37368f30108
+Entity	structs.h	/^struct Entity {$/;"	s
+Entity	structs.h	/^typedef struct Entity Entity;$/;"	t	typeref:struct:Entity
+MAP_HEIGHT	defs.h	/^#define MAP_HEIGHT /;"	d
+MAP_RENDER_HEIGHT	defs.h	/^#define MAP_RENDER_HEIGHT /;"	d
+MAP_RENDER_WIDTH	defs.h	/^#define MAP_RENDER_WIDTH /;"	d
+MAP_WIDTH	defs.h	/^#define MAP_WIDTH /;"	d
+MAX	defs.h	/^#define MAX(/;"	d
+MAX_FILENAME_LENGTH	defs.h	/^#define MAX_FILENAME_LENGTH /;"	d
+MAX_KEYBOARD_KEYS	defs.h	/^#define MAX_KEYBOARD_KEYS /;"	d
+MAX_NAME_LENGTH	defs.h	/^#define MAX_NAME_LENGTH /;"	d
+MAX_SND_CHANNELS	defs.h	/^#define MAX_SND_CHANNELS /;"	d
+MAX_TILES	defs.h	/^#define MAX_TILES /;"	d
+MIN	defs.h	/^#define MIN(/;"	d
+PLAYER_MOVE_SPEED	defs.h	/^#define PLAYER_MOVE_SPEED /;"	d
+SCREEN_HEIGHT	defs.h	/^#define SCREEN_HEIGHT /;"	d
+SCREEN_WIDTH	defs.h	/^#define SCREEN_WIDTH /;"	d
+STRNCPY	defs.h	/^#define STRNCPY(/;"	d
+Stage	structs.h	/^} Stage;$/;"	t	typeref:struct:__anonb37368f30308
+TILE_SIZE	defs.h	/^#define TILE_SIZE /;"	d
+Texture	structs.h	/^struct Texture {$/;"	s
+Texture	structs.h	/^typedef struct Texture Texture;$/;"	t	typeref:struct:Texture
+__anonb37368f30108	structs.h	/^typedef struct {$/;"	s
+__anonb37368f30208	structs.h	/^typedef struct {$/;"	s
+__anonb37368f30308	structs.h	/^typedef struct {$/;"	s
+addTextureToCache	textures.c	/^static void addTextureToCache(char *name, SDL_Texture *sdlTexture)$/;"	f	typeref:typename:void	file:
+app	main.h	/^App app;$/;"	v	typeref:typename:App
+blit	draw.c	/^void blit(SDL_Texture *texture, int x, int y, int center)$/;"	f	typeref:typename:void
+blitRect	draw.c	/^void blitRect(SDL_Texture *texture, SDL_Rect *src, int x, int y)$/;"	f	typeref:typename:void
+camera	structs.h	/^	SDL_Point camera;$/;"	m	struct:__anonb37368f30308	typeref:typename:SDL_Point
+capFrameRate	main.c	/^static void capFrameRate(long *then, float *remainder)$/;"	f	typeref:typename:void	file:
+cleanup	init.c	/^void cleanup(void)$/;"	f	typeref:typename:void
+delegate	structs.h	/^	Delegate delegate;$/;"	m	struct:__anonb37368f30208	typeref:typename:Delegate
+doCamera	camera.c	/^void doCamera(void)$/;"	f	typeref:typename:void
+doEntities	entities.c	/^void doEntities(void)$/;"	f	typeref:typename:void
+doInput	input.c	/^void doInput(void)$/;"	f	typeref:typename:void
+doKeyDown	input.c	/^void doKeyDown(SDL_KeyboardEvent *event)$/;"	f	typeref:typename:void
+doKeyUp	input.c	/^void doKeyUp(SDL_KeyboardEvent *event)$/;"	f	typeref:typename:void
+doPlayer	player.c	/^void doPlayer(void)$/;"	f	typeref:typename:void
+draw	stage.c	/^static void draw(void)$/;"	f	typeref:typename:void	file:
+draw	structs.h	/^	void (*draw)(void);$/;"	m	struct:__anonb37368f30108	typeref:typename:void (*)(void)
+drawEntities	entities.c	/^void drawEntities(void)$/;"	f	typeref:typename:void
+drawMap	map.c	/^void drawMap(void)$/;"	f	typeref:typename:void
+dx	structs.h	/^	float dx;$/;"	m	struct:Entity	typeref:typename:float
+dy	structs.h	/^	float dy;$/;"	m	struct:Entity	typeref:typename:float
+entityHead	structs.h	/^	Entity entityHead, *entityTail;$/;"	m	struct:__anonb37368f30308	typeref:typename:Entity
+entityTail	structs.h	/^	Entity entityHead, *entityTail;$/;"	m	struct:__anonb37368f30308	typeref:typename:Entity *
+flags	structs.h	/^	long flags;$/;"	m	struct:Entity	typeref:typename:long
+getTexture	textures.c	/^static SDL_Texture *getTexture(char *name)$/;"	f	typeref:typename:SDL_Texture *	file:
+h	structs.h	/^	int h;$/;"	m	struct:Entity	typeref:typename:int
+initEntities	entities.c	/^void initEntities(void)$/;"	f	typeref:typename:void
+initGame	init.c	/^void initGame(void)$/;"	f	typeref:typename:void
+initMap	map.c	/^void initMap(void)$/;"	f	typeref:typename:void
+initPlayer	player.c	/^void initPlayer(void)$/;"	f	typeref:typename:void
+initSDL	init.c	/^void initSDL(void)$/;"	f	typeref:typename:void
+initStage	stage.c	/^void initStage(void)$/;"	f	typeref:typename:void
+isInsideMap	map.c	/^int isInsideMap(int x, int y)$/;"	f	typeref:typename:int
+isOnGround	structs.h	/^	int isOnGround;$/;"	m	struct:Entity	typeref:typename:int
+keyboard	structs.h	/^	int keyboard[MAX_KEYBOARD_KEYS];$/;"	m	struct:__anonb37368f30208	typeref:typename:int[]
+loadMap	map.c	/^static void loadMap(const char *filename)$/;"	f	typeref:typename:void	file:
+loadTexture	textures.c	/^SDL_Texture *loadTexture(char *filename)$/;"	f	typeref:typename:SDL_Texture *
+loadTiles	map.c	/^static void loadTiles(void)$/;"	f	typeref:typename:void	file:
+logic	stage.c	/^static void logic(void)$/;"	f	typeref:typename:void	file:
+logic	structs.h	/^	void (*logic)(void);$/;"	m	struct:__anonb37368f30108	typeref:typename:void (*)(void)
+main	main.c	/^int main(int argc, char *argv[])$/;"	f	typeref:typename:int
+map	structs.h	/^	int map[MAP_WIDTH][MAP_HEIGHT];$/;"	m	struct:__anonb37368f30308	typeref:typename:int[][]
+move	entities.c	/^static void move(Entity *e)$/;"	f	typeref:typename:void	file:
+moveToWorld	entities.c	/^static void moveToWorld(Entity *e, float dx, float dy)$/;"	f	typeref:typename:void	file:
+name	structs.h	/^	char name[MAX_NAME_LENGTH];$/;"	m	struct:Texture	typeref:typename:char[]
+next	structs.h	/^	Entity *next;$/;"	m	struct:Entity	typeref:typename:Entity *
+next	structs.h	/^	Texture *next;$/;"	m	struct:Texture	typeref:typename:Texture *
+pete	player.c	/^static SDL_Texture *pete[2];$/;"	v	typeref:typename:SDL_Texture * [2]	file:
+player	main.h	/^Entity *player;$/;"	v	typeref:typename:Entity *
+prepareScene	draw.c	/^void prepareScene(void)$/;"	f	typeref:typename:void
+presentScene	draw.c	/^void presentScene(void)$/;"	f	typeref:typename:void
+readFile	io.c	/^char *readFile(const char *filename)$/;"	f	typeref:typename:char *
+renderer	structs.h	/^	SDL_Renderer *renderer;$/;"	m	struct:__anonb37368f30208	typeref:typename:SDL_Renderer *
+self	main.h	/^Entity *self;$/;"	v	typeref:typename:Entity *
+stage	main.h	/^Stage stage;$/;"	v	typeref:typename:Stage
+texture	structs.h	/^	SDL_Texture *texture;$/;"	m	struct:Entity	typeref:typename:SDL_Texture *
+texture	structs.h	/^	SDL_Texture *texture;$/;"	m	struct:Texture	typeref:typename:SDL_Texture *
+textureHead	structs.h	/^	Texture textureHead, *textureTail;$/;"	m	struct:__anonb37368f30208	typeref:typename:Texture
+textureTail	structs.h	/^	Texture textureHead, *textureTail;$/;"	m	struct:__anonb37368f30208	typeref:typename:Texture *
+tiles	map.c	/^static SDL_Texture *tiles[MAX_TILES];$/;"	v	typeref:typename:SDL_Texture * []	file:
+w	structs.h	/^	int w;$/;"	m	struct:Entity	typeref:typename:int
+window	structs.h	/^	SDL_Window *window;$/;"	m	struct:__anonb37368f30208	typeref:typename:SDL_Window *
+x	structs.h	/^	float x;$/;"	m	struct:Entity	typeref:typename:float
+y	structs.h	/^	float y;$/;"	m	struct:Entity	typeref:typename:float
